@@ -2,7 +2,8 @@
     "dest": "dist/installers/",
     "icon": "resources/icon.ico",
 	"options": {
-		"name": "PartiuPDV",
+		"name": "partiu_pdv",
+		"productName": "Partiu PDV",
 	    "iconUrl": "http://static.partiuvantagens.com.br/assets/icons/partiu-icon.ico"
 	},
 	"tags": [

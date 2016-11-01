@@ -8,11 +8,11 @@ Para clonar o repositório e rodar o Partiu PDV você precisará do [Git](https:
 
 ```bash
 # Clonando o repositório
-git clone https://github.com/partiu/partiu-pos
+git clone https://github.com/partiuvantagens/partiu-pos
 # Entrar no repositório
 cd partiu-pos
 # Instalar dependências e rodar o aplicativo
 npm install && npm start
 ```
 
-#### License [CC0 1.0 (Public Domain)](LICENSE.md)
+#### License [MIT](LICENSE.md)

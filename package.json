@@ -1,5 +1,6 @@
 {
-  "name": "PartiuPDV",
+  "name": "partiu-pos",
+  "productName": "Partiu PDV",
   "version": "1.0.0",
   "description": "A Partiu Point of Sale application",
   "main": "src/main.js",
@@ -7,7 +8,10 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-packager . PartiuPDV --platform win32 --arch x64 --out dist/",
-    "setup": "electron-installer-windows --src dist/PartiuPDV-win32-x64/ --config config.json"
+    "pack:osx": "electron-packager . PartiuPDV --out=dist/ --overwrite --platform=darwin --arch=x64 --exe PartiuPDV.exe --icon=resources/icon.icns && npm run codesign",
+    "pack:win32": "electron-packager . PartiuPDV --out=dist/ --overwrite --platform=win32 --arch=ia32 --exe PartiuPDV.exe",
+    "pack:win64": "electron-packager . PartiuPDV --out=dist/ --overwrite --platform=win32 --arch=x64 --exe PartiuPDV.exe --icon=resources/icon.ico --exe PartiuPDV.exe",
+    "setup": "electron-installer-windows --src dist/PartiuPDV-win32-ia32/ --config config.json --exe PartiuPDV.exe --overwrite"
   },
   "keywords": [
     "Partiu Vantagens",
