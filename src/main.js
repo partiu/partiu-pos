@@ -11,6 +11,7 @@ function createWindow () {
         width: 1000,
         height: 600,
         title: 'Partiu Vantagens!',
+        icon: __dirname + '/resources/icon.ico',
         webPreferences: {
             partition: 'persist:xxx'
         }
