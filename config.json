@@ -1,0 +1,6 @@
+{
+    "dest": "dist/installers",
+	"options": {
+	    "iconUrl": "http://static.partiuvantagens.com.br/assets/icons/partiu-icon.ico"
+	}
+}
